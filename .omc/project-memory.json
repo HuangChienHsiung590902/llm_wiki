@@ -1,0 +1,269 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779598545468,
+  "projectRoot": "D:\\Github\\llm_wiki",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.0.0",
+        "category": "build"
+      },
+      {
+        "name": "vitest",
+        "version": "4.1.4",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "typecheck": "tsc --build --pretty",
+      "build": "npm run typecheck && vite build",
+      "preview": "vite preview",
+      "test": "npm run test:mocks && npm run test:llm",
+      "test:mocks": "vitest run --exclude='**/*.real-llm.test.ts'",
+      "test:llm": "vitest run real-llm --no-file-parallelism --reporter=verbose",
+      "tauri": "tauri"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 9,
+      "lastAccessed": 1779598545434,
+      "keyFiles": [
+        "1-deepresearch.jpg",
+        "2-ai_chat.jpg",
+        "3-knowledge_graph.jpg",
+        "4-chrome_extension_webclipper.jpg",
+        "5-obsidian_compatibility.jpg"
+      ]
+    },
+    "extension": {
+      "path": "extension",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1779598545435,
+      "keyFiles": [
+        "icon128.png",
+        "icon16.png",
+        "icon48.png",
+        "manifest.json",
+        "popup.html"
+      ]
+    },
+    "plans": {
+      "path": "plans",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1779598545441,
+      "keyFiles": [
+        "multimodal-images.md"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1779598545442,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "main.tsx",
+        "vite-env.d.ts"
+      ]
+    },
+    "src-tauri": {
+      "path": "src-tauri",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1779598545442,
+      "keyFiles": [
+        "build.rs",
+        "Cargo.lock",
+        "Cargo.toml",
+        "tauri.conf.json",
+        "tauri.linux.conf.json"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 1,
+      "lastAccessed": 1779598545443,
+      "keyFiles": [
+        "logo.jpg"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 3,
+      "lastAccessed": 1779598545443,
+      "keyFiles": [
+        "error-boundary.tsx",
+        "mermaid-diagram.test.tsx",
+        "mermaid-diagram.tsx"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 155,
+      "lastAccessed": 1779598545444,
+      "keyFiles": [
+        "api-server-constants.ts",
+        "api-server.real-llm.test.ts",
+        "api-token.test.ts"
+      ]
+    },
+    "src-tauri\\src": {
+      "path": "src-tauri\\src",
+      "purpose": "Source code",
+      "fileCount": 6,
+      "lastAccessed": 1779598545444,
+      "keyFiles": [
+        "api_server.rs",
+        "clip_server.rs",
+        "lib.rs"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 8,
+      "lastAccessed": 1779602341058,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\settings\\sections\\interface-section.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1779602726071,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\HCH\\AppData\\Local\\Temp\\claude\\D--Github-llm-wiki\\acfd1862-1a94-45f4-aa73-3b4d7ae3af20\\tasks\\bf3jwa9pe.output",
+      "accessCount": 2,
+      "lastAccessed": 1779599778519,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\zh.json",
+      "accessCount": 2,
+      "lastAccessed": 1779602719719,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1779598640801,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\Cargo.toml",
+      "accessCount": 1,
+      "lastAccessed": 1779598641269,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1779598642077,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\lib.rs",
+      "accessCount": 1,
+      "lastAccessed": 1779598651541,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\api_server.rs",
+      "accessCount": 1,
+      "lastAccessed": 1779598652004,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779598652345,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\commands\\vectorstore.rs",
+      "accessCount": 1,
+      "lastAccessed": 1779598660871,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\HCH\\AppData\\Local\\Temp\\claude\\D--Github-llm-wiki\\04eaf4eb-9193-4fb5-bf92-8f04bbf20652\\tasks\\bvmqneeno.output",
+      "accessCount": 1,
+      "lastAccessed": 1779600467034,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779602326059,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
