@@ -27,7 +27,24 @@
   },
   "sidebar": {
     "knowledge": "Knowledge",
-    "files": "Files"
+    "files": "Files",
+    "newPage": "+ New"
+  },
+  "newPage": {
+    "title": "New Wiki Page",
+    "pageTitle": "Title",
+    "pageTitlePlaceholder": "e.g. Machine Learning, GPT-4",
+    "pageType": "Type",
+    "tags": "Tags",
+    "tagsPlaceholder": "Comma-separated, e.g. AI, deep learning",
+    "description": "Description",
+    "descriptionPlaceholder": "One-line summary of this page",
+    "body": "Initial Content",
+    "bodyPlaceholder": "Markdown content (optional)",
+    "create": "Create Page",
+    "creating": "Creating...",
+    "errorTitleRequired": "Please enter a page title",
+    "errorInvalidTitle": "Title cannot be converted to a valid filename"
   },
   "project": {
     "createTitle": "Create New Wiki Project",

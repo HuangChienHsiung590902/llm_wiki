@@ -27,7 +27,24 @@
   },
   "sidebar": {
     "knowledge": "知識庫",
-    "files": "文件"
+    "files": "文件",
+    "newPage": "+ 新增"
+  },
+  "newPage": {
+    "title": "新增 Wiki 頁面",
+    "pageTitle": "標題",
+    "pageTitlePlaceholder": "例如：機器學習、GPT-4",
+    "pageType": "類型",
+    "tags": "標籤",
+    "tagsPlaceholder": "用逗號分隔，例如：AI, 深度學習",
+    "description": "摘要",
+    "descriptionPlaceholder": "一句話描述此頁面",
+    "body": "初始內容",
+    "bodyPlaceholder": "Markdown 內容（可留空）",
+    "create": "建立頁面",
+    "creating": "建立中...",
+    "errorTitleRequired": "請輸入頁面標題",
+    "errorInvalidTitle": "標題無法轉換為有效的檔案名稱"
   },
   "project": {
     "createTitle": "新建 Wiki 專案",

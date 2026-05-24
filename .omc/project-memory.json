@@ -193,10 +193,22 @@
       "type": "directory"
     },
     {
+      "path": "src\\i18n\\en.json",
+      "accessCount": 4,
+      "lastAccessed": 1779605125346,
+      "type": "file"
+    },
+    {
       "path": "src\\components\\settings\\sections\\interface-section.tsx",
       "accessCount": 3,
       "lastAccessed": 1779602726071,
       "type": "directory"
+    },
+    {
+      "path": "src\\i18n\\zh.json",
+      "accessCount": 3,
+      "lastAccessed": 1779605108684,
+      "type": "file"
     },
     {
       "path": "C:\\Users\\HCH\\AppData\\Local\\Temp\\claude\\D--Github-llm-wiki\\acfd1862-1a94-45f4-aa73-3b4d7ae3af20\\tasks\\bf3jwa9pe.output",
@@ -205,9 +217,9 @@
       "type": "file"
     },
     {
-      "path": "src\\i18n\\zh.json",
+      "path": "src\\components\\layout\\sidebar-panel.tsx",
       "accessCount": 2,
-      "lastAccessed": 1779602719719,
+      "lastAccessed": 1779605099400,
       "type": "file"
     },
     {
@@ -262,6 +274,48 @@
       "path": "src\\i18n\\index.ts",
       "accessCount": 1,
       "lastAccessed": 1779602326059,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\icon-sidebar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779604999645,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\types\\wiki.rs",
+      "accessCount": 1,
+      "lastAccessed": 1779605007740,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\frontmatter.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779605007794,
+      "type": "file"
+    },
+    {
+      "path": "src\\commands\\fs.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779605020815,
+      "type": "directory"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1779605021623,
+      "type": "directory"
+    },
+    {
+      "path": "src\\stores\\wiki-store.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779605043503,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\wiki\\new-page-form.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1779605084726,
       "type": "file"
     }
   ],
